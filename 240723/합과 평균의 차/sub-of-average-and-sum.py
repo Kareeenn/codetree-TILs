@@ -1,0 +1,10 @@
+k = input()
+k = k.split()
+a = int(k[0])
+b = int(k[1])
+c = int(k[2])
+d = a+b+c
+e = int(d/3)
+print(d)
+print(e)
+print(d - e)
