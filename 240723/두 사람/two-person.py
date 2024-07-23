@@ -8,7 +8,7 @@ b = b.split()
 age2 = int(b[0])
 gen2 = b[1]
 
-if (age1 >=19 and gen1 = 'M') or (age2 >=19 and gen2 = 'M'):
+if (age1 >=19 and gen1 == 'M') or (age2 >=19 and gen2 == 'M'):
     print('1')
 else :
     print('0')
