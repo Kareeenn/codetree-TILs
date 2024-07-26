@@ -1,0 +1,12 @@
+n = int(input())
+
+for i in range(n):
+    if i==0 or i== (n-1):
+        for k in range(n):
+            print("* ", end="")
+    else:
+        print("* ", end="")
+        for k in range(n-i-1):
+            print("  ", end="")
+        print("* ", end="")
+    print()
