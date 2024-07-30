@@ -3,6 +3,8 @@ arr1 = [
     for _ in range(3)
 ]
 
+n = input()
+
 arr2 = []
 for _ in range(3):
     row =  list(map(int, input().split()))
