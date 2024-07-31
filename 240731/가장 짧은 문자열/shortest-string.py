@@ -1,0 +1,9 @@
+a = input()
+b= input()
+c = input()
+
+a = len(a)
+b= len(b)
+c= len(c)
+
+print(max(a,b,c) - min(a,b,c))
