@@ -5,9 +5,6 @@ n = input()
 cnt = n.count('R') - n.count('L')
 
 #cnt만큼 밀어야 돼
+k = k[-cnt:] + k[:-cnt]
 
-if cnt<0:
-    k = k[-cnt:] + k[:-cnt]
-else:
-    k = k[-cnt:] + k[:-cnt]
 print(k)
