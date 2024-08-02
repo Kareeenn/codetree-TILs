@@ -1,11 +1,16 @@
 k = input()
-cnt = 0 
 n = input()
 
-cnt = n.count('R') - n.count('L')
+for i in n:
+    if i == 'L':
+        k = k[+1:] + k[:+1]
+    else:
+         k = k[-1:] + k[:-1]
 
-#cnt만큼 밀어야 돼
-if cnt != 0:
-    k = k[-cnt:] + k[:-cnt]
+
 
 print(k)
+
+# 이런 반례
+#qebh
+#LLLLL
