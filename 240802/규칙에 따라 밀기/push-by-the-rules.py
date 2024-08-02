@@ -12,5 +12,5 @@ for i in n:
 print(k)
 
 # 이런 반례
-#qebh
+#qebh   
 #LLLLL
