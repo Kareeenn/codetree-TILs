@@ -5,7 +5,8 @@ def guess_min(n,m):
     a = 1
     cnt = 0
     x, y = 0, 0
-    for i in range(1, min(n,m)+1):
+    i = 2
+    while i <= min(n,m):
         x = n % i 
         y = m % i
         if x == 0 and y == 0:
@@ -13,9 +14,11 @@ def guess_min(n,m):
             m = m // i
             cnt += 1
             a = a*i
-            i -= 1
-    #print(f"{a} * {x} * {y}")
-    a = a*x*y
+            # 같은 i로 실행되게 해야 돼
+        else:
+            i += 1
+    #print(f"{a} * {n} * {m}")
+    a = a*n*m
     print(a)
 
 guess_min(n,m)
