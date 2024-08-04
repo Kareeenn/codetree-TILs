@@ -13,6 +13,8 @@ def guess_min(n,m):
             m = m // i
             cnt += 1
             a = a*i
+            i -= 1
+    #print(f"{a} * {x} * {y}")
     a = a*x*y
     print(a)
 
