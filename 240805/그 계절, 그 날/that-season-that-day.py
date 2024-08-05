@@ -5,7 +5,8 @@ def right(y,m,d):
     if exist(y,m,d):
         season(m,d)
     else:
-        return -1
+        print(-1)
+        return
 
 def exist(y,m,d):
     if yunan(y):
