@@ -9,7 +9,7 @@ def right(y,m,d):
 
 def exist(y,m,d):
     if yunan(y):
-        if m in [1,3,5,7,9,11]:
+        if m in [1,3,5,7,8,10,12]:
             if 1 <= d and d <= 31:
                 return True
             else:
@@ -26,7 +26,7 @@ def exist(y,m,d):
                 return False
        
     else:
-        if m in [1,3,5,7,9,11]:
+        if m in [1,3,5,7,8,10,12]:
             if 1 <= d and d <= 31:
                 return True
             else:
