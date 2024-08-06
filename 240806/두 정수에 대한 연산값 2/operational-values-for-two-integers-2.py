@@ -4,6 +4,6 @@ def king(a,b):
     a, b = min(a,b) +10 , max(a,b)*2
     return a,b
 
-a,b = king(a,b)
+n, m = king(a,b)
 
-print(f"{a} {b}")
+print(f"{n} {m}")
